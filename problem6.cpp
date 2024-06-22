@@ -1,7 +1,7 @@
 // Maya Thompson
 // CS 1, Section #0107
 // Assignment #1, Problem #6
-// Summary: This program asks a user to enter a character and then displays the decimal associated with the character from the ASCII code table
+// Summary: This program asks the user to enter a character and then displays the integer associated with the character from the ASCII code table
 
 #include <iostream>
 #include <iomanip>
