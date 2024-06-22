@@ -20,26 +20,24 @@ int main()
 
 // Welcome customers and display prices
 
-    cout << "Welcome to Bob's Fruits! We sell apples, oranges, and bananas! \n \n";
-    cout << "Here are our prices: \n";
-    cout << "Apples cost $0.65 each \n";
-    cout << "Oranges cost $0.90 each \n";
-    cout << "Bananas cost $0.70 each \n \n";
+    cout << "Welcome to Bob's Fruits Grocery \n \n";
 
 // Ask the user how many apples they would like to purchase
 
     cout << "How many apples would you like to buy? \n";
     cin >> apples;
 
+// Ask how many bananas they would like to purchase
+
+    cout << "How many bananas would you like to buy? \n";
+    cin >> bananas;
+
+
 // Ask how many oranges they would like to purchase
 
     cout << "How many oranges would you like to buy? \n";
     cin >> oranges;
 
-// Ask how many bananas they would like to purchase
-
-    cout << "How many bananas would you like to buy? \n";
-    cin >> bananas;
 
 // Calculate total cost of apples
 
@@ -66,9 +64,9 @@ int main()
     
     cout << apples << " Apples @ $0.65 each = $" << setprecision(2) << fixed << costOfApples << endl;
 
-    cout << oranges << " Oranges @ $0.90 each = $" << setprecision(2) << fixed << costOfOranges << endl;
-
     cout << bananas << " Bananas @ $0.70 each = $" << setprecision(2) << fixed << costOfBananas << endl;
+
+    cout << oranges << " Oranges @ $0.90 each = $" << setprecision(2) << fixed << costOfOranges << endl;
 
     cout << "---------------------------- \n \n";
 

@@ -15,7 +15,7 @@ char x = 'A';
 
 // Ask user for a character to store as variable x
 
-    cout << "Please enter a character \n";
+    cout << "Please enter a character: \n";
     cin >> x;
 
 // Output the ASCII code for the user's inputted character to the screen
